@@ -15,7 +15,12 @@ public class Student_controller {
     }
     @GetMapping("/demo")
     public  String show(){
+
         return "welcome";
+    }
+    @GetMapping("/demo1")
+    public  String display(){
+        return"hello";
     }
 
 }
